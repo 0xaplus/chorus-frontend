@@ -1,0 +1,136 @@
+body {
+  font-family: 'SangBleu Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  background-color: #f8ce30;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #242323;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #242323;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #242323;
+}
+
+.donate-button {
+  background-color: #488693;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.banner {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #242323;
+}
+
+.features-image {
+  width: 80%;
+  height: auto;
+}
+
+.impact-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #f8f8f8;
+}
+
+.stat-item h3 {
+  font-size: 2rem;
+  color: #488693;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  color: #488693;
+}
+
+.footer {
+  background-color: #f8ce30;
+  padding: 40px 20px;
+  color: #242323;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.footer-content div h4 {
+  font-size: 1.5rem;
+  color: #f00f35;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content li {
+  margin: 10px 0;
+  color: #242323;
+}
+
+.footer-note {
+  background-color: #488693;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .impact-stats {
+    flex-direction: column;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
